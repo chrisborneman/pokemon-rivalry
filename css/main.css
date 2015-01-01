@@ -3,12 +3,12 @@
     display: none;
 }
 
-.scorebar-maindisplay:hover > ul
+.scorebar-mainelt:hover > ul
 {
     display: block;
 }
 
-.scorebar-outerlist
+.scorebar-menu
 {
 }
 
