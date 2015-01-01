@@ -1,11 +1,11 @@
-.score-maindisplay:hover > ul
-{
-    display:block;
-}
-
 .score-submenu
 {
     display: none;
+}
+
+.score-maindisplay:hover > ul
+{
+    display:block;
 }
 
 body 
