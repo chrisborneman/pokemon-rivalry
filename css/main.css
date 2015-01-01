@@ -3,12 +3,22 @@
     display: none;
 }
 
-#firewhale:target + .scorebar-submenu
+#firewhale
+{
+    display: none;
+}
+
+#refia
+{
+    display: none;
+}
+
+#firewhale:target
 {
     display: block;
 }
 
-#refia:target + .scorebar-submenu
+#refia:target
 {
     display: block;
 }
