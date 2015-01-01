@@ -13,6 +13,16 @@
     display: none;
 }
 
+#firewhale:target
+{
+    display: block;
+}
+
+#refia:target
+{
+    display: block;
+}
+
 body 
 {
     background-image: url('img/background.png');
