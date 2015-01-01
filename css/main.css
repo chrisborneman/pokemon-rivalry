@@ -3,7 +3,7 @@
     display: none;
 }
 
-nav ul li:hover > ul
+nav ul li a:hover > ul
 {
     display: block;
 }
