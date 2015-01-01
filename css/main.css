@@ -23,6 +23,20 @@
     display: block;
 }
 
+.scorebar-menu
+{
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+.scorebar-menu:after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
 body 
 {
     background-image: url('img/background.png');
