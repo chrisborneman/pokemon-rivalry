@@ -46,6 +46,12 @@ body
     background-size: cover;
 }
 
+li
+{
+    display: inline-block;
+    float: left;
+}
+
 nav
 {
     background-color: #4A5294;
