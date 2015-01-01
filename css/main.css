@@ -3,7 +3,12 @@
     display: none;
 }
 
-.scorebar-mainelt:active + .scorebar-submenu
+#firewhale:target + .scorebar-submenu
+{
+    display: block;
+}
+
+#refia:target + .scorebar-submenu
 {
     display: block;
 }
