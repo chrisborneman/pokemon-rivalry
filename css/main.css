@@ -3,7 +3,7 @@
     display: none;
 }
 
-nav ul li a:hover > ul
+.scorebar-maindisplay a:hover > ul
 {
     display: block;
 }
