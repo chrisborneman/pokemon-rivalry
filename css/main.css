@@ -3,9 +3,9 @@
     display: none;
 }
 
-.score-maindisplay:hover > ul
+.score-maindisplay:hover > .score-submenu
 {
-    display:block;
+    display: block;
 }
 
 body 
