@@ -3,14 +3,13 @@
     display: none;
 }
 
-.scorebar-maindisplay:hover > .scorebar-submenu
+nav ul li:hover > ul
 {
     display: block;
 }
 
 .scorebar-outerlist
 {
-    background: ;
 }
 
 body 
