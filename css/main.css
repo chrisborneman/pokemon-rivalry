@@ -13,16 +13,6 @@
     display: none;
 }
 
-#firewhale:target
-{
-    display: block;
-}
-
-#refia:target
-{
-    display: block;
-}
-
 .scorebar-menu
 {
     list-style: none;
