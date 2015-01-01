@@ -3,7 +3,7 @@
     display: none;
 }
 
-.scorebar-maindisplay a:hover .scorebar-submenu
+.scorebar-maindisplay:hover > .scorebar-submenu
 {
     display: block;
 }
