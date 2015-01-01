@@ -3,26 +3,6 @@
     display: none;
 }
 
-#firewhale
-{
-    display: none;
-}
-
-#refia
-{
-    display: none;
-}
-
-#firewhale:target
-{
-    display: block;
-}
-
-#refia:target
-{
-    display: block;
-}
-
 .scorebar-menu
 {
     float: left;
