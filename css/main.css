@@ -34,5 +34,9 @@ nav
     width: 215px;
     font-family: arial, sans-serif;
     font-weight: bold;
+}
+
+nav a
+{
     text-decoration: none;
 }
