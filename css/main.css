@@ -32,4 +32,6 @@ nav
     margin-right: auto;
     overflow: hidden;
     width: 210px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
 }
