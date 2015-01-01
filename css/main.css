@@ -1,11 +1,16 @@
-.score-submenu
+.scorebar-submenu
 {
     display: none;
 }
 
-.score-maindisplay:hover > .score-submenu
+.scorebar-maindisplay:hover .scorebar-submenu
 {
     display: block;
+}
+
+.scorebar-outerlist
+{
+    background: ;
 }
 
 body 
