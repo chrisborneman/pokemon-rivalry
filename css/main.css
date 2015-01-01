@@ -25,6 +25,7 @@
 
 .scorebar-menu
 {
+    float: left;
     list-style: none;
     position: relative;
     display: inline-table;
