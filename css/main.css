@@ -31,5 +31,6 @@ nav
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    width: auto;
+    width: 25%;
+    min-width: 190px;
 }
