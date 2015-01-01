@@ -50,12 +50,13 @@ body
 {
     display: inline-block;
     float: left;
+    margin-right: 30px;
 }
 
 #refialink
 {
     display: inline-block;
-    float: right;
+    float: left;
 }
 
 nav
