@@ -46,11 +46,16 @@ body
     background-size: cover;
 }
 
-li
+#fwlink
 {
     display: inline-block;
     float: left;
-    margin-right: 10px;
+}
+
+#refialink
+{
+    display: inline-block;
+    float: right;
 }
 
 nav
