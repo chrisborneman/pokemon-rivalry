@@ -13,12 +13,12 @@
     display: none;
 }
 
-#firewhale:target ~ li
+#firewhale:target
 {
     display: block;
 }
 
-#refia:target ~ li
+#refia:target
 {
     display: block;
 }
