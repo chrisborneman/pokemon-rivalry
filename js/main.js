@@ -52,7 +52,7 @@ $('#fwlink a').hover
   (
     function()
     {
-      $(this).css("color", "#AD3149");
+      $(this).animate({"color": "#AD3149"}, "slow");
     }
   )
 
@@ -60,6 +60,6 @@ $('#refialink a').hover
   (
     function()
     {
-      $(this).css("color", "#1E97BF");
+      $(this).animate({"color": "#1E97BF"}, "slow");
     }
   )
