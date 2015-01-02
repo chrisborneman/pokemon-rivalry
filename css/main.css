@@ -55,9 +55,9 @@ body
     display: inline-block;
 }
 
-a
+a, a:active, a:focus
 {
-    outline: 0;
+    outline: none;
 }
 
 nav
