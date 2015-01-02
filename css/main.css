@@ -1,3 +1,11 @@
+.scorebar-menu
+{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+}
+
 body 
 {
     background-image: url('img/background.png');
