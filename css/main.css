@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.scorebar
+{
+    transition: all .4s ease;
+}
+
 .scorebar-menu
 {
     display: inline-block;
@@ -46,13 +51,11 @@ body
 
 #fwbattles a:hover
 {
-    transition: color .4s ease;
     color: "#AD3149";
 }
 
 #refiabattles a:hover
 {
-    transition: color .4s ease;
     color:"#1E97BF";
 }
 
@@ -69,7 +72,6 @@ body
 
 nav
 {
-    transition: all .4s ease;
     margin-left: auto;
     margin-right: auto;
     display: block;
