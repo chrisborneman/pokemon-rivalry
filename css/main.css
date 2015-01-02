@@ -6,7 +6,6 @@
 
 .scorebar-menu
 {
-    transition: all .4s ease;
     display: inline-block;
     list-style: none;
 }
@@ -45,16 +44,6 @@ body
     margin-right: auto;
 }
 
-#fwbattles a:hover
-{
-    color: "#AD3149";
-}
-
-#refiabattles a:hover
-{
-    color:"#1E97BF";
-}
-
 #fwlink
 {
     display: inline-block;
@@ -64,6 +53,18 @@ body
 #refialink
 {
     display: inline-block;
+}
+
+#fwlink:hover
+{
+    transition: color .4s ease;
+    color: "#AD3149";
+}
+
+#refialink:hover
+{
+    transition: color .4s ease;
+    color:"#1E97BF";
 }
 
 nav
