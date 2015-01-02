@@ -48,7 +48,7 @@ $('#refialink a').click
     }
   )
 
-  $('fwlink a').hover
+  $('#fwlink a').hover
   (
     function()
     {
@@ -56,10 +56,10 @@ $('#refialink a').click
     }
   )
 
-    $('refialink a').hover
-  (
-    function()
-    {
-      $(this).animate({color:"#1E97BF"});
-    }
-  )
+    $('#refialink a').hover
+    (
+      function()
+      {
+        $(this).animate({color:"#1E97BF"});
+      }
+    )
