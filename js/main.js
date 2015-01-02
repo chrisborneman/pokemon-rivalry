@@ -11,6 +11,14 @@ $('#fwlink a').click
             $('#fwbattles').toggle();
           });
       }
+      else if ($('#fwbattles').is(":visible")) 
+      {
+        $('#fwbattles').toggle(0, function()
+          {
+            $('#battles').slideToggle("slow");
+          }
+        );
+      }
       else
       {
         $('#battles').toggle(0, function()
