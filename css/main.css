@@ -20,6 +20,7 @@ body
 
 #fwbattles
 {
+    padding-right: 40px;
     color: #FFF0D5;
     display: none;
     margin-top: 10px;
@@ -30,6 +31,7 @@ body
 
 #refiabattles
 {
+    padding-right: 40px;
     color: #FFF0D5;
     display: none;
     margin-top: 10px;
