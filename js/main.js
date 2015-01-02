@@ -4,18 +4,15 @@ $('#fwlink a').click
     {
       if($('#refiabattles').is(":visible"))
       {
-        $('#battles').slideToggle();
+        $('#battles').slideToggle("slow");
         $('#refiabattles').toggle();
-      }
-      else if($('#fwbattles').is(":visible"))
-      {
         $('#battles').slideToggle("slow");
         $('#fwbattles').toggle();
       }
       else
       {
-        $('#battles').toggle();
-        $('#fwbattles').slideToggle("slow");
+        $('#battles').slideToggle("slow");
+        $('#fwbattles').toggle();
       }
     }
   )
@@ -28,16 +25,13 @@ $('#refialink a').click
       {
         $('#battles').slideToggle("slow");
         $('#fwbattles').toggle();
-      }
-      else if($('#refiabattles').is(":visible"))
-      {
         $('#battles').slideToggle("slow");
         $('#refiabattles').toggle();
       }
       else
       {
-        $('#battles').toggle();
-        $('#refiabattles').slideToggle("slow");
+        $('#battles').slideToggle("slow");
+        $('#refiabattles').toggle();
       }
     }
   )
