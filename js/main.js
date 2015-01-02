@@ -46,11 +46,7 @@ $('#refialink a').click
       }
       else if($('refiabattles').is(":visible"))
       {
-        $('#battles').slideToggle(0, function()
-          {
-            $('#refiabattles').slideToggle("slow");
-          }
-        );     
+        $('#battles').slideToggle("slow");    
       }
       else
       {
