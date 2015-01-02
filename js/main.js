@@ -13,8 +13,11 @@ $('#fwlink a').click
       }
       else
       {
-        $('#battles').toggle();
-        $('#fwbattles').slideToggle("slow");
+        $('#battles').slideToggle("slow", function()
+          {
+            $('#fwbattles').toggle();
+          }
+        );
       }
     }
   )
@@ -30,12 +33,16 @@ $('#refialink a').click
             $('#fwbattles').toggle();
             $('#battles').slideToggle("slow");
             $('#refiabattles').toggle();
-          });
+          }
+        );
       }
       else
       {
-        $('#battles').toggle();
-        $('#refiabattles').slideToggle("slow");
+        $('#battles').slideToggle("slow", function()
+          {
+            $('#refiabattles').toggle();
+          }
+        );
       }
     }
   )
