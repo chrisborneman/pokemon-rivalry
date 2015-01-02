@@ -55,6 +55,11 @@ body
     display: inline-block;
 }
 
+a
+{
+    outline: 0;
+}
+
 nav
 {
     margin-left: auto;
