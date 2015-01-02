@@ -13,9 +13,9 @@ $('#fwlink a').click
       }
       else
       {
-        $('#fwbattles').slideToggle("slow", function()
+        $('#battles').slideToggle("slow", function()
           {
-            $('#battles').toggle();
+            $('#fwbattles').toggle();
           }
         );
       }
