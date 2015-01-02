@@ -29,6 +29,5 @@ $('#refialink a').click
         $('#battles').toggle();
         $('#refiabattles').toggle();
       }
-      
     }
   )
