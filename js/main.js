@@ -54,11 +54,7 @@ $('#refialink a').click
       }
       else
       {
-        $('#battles').slideToggle("slow", function()
-          {
-            $('#refiabattles').slideToggle();
-          }
-        );
+        $('#refiabattles').slideToggle();
       }
     }
   )
