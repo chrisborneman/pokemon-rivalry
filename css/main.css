@@ -1,9 +1,7 @@
 .scorebar-menu
 {
-    float: left;
+    display: inline-block;
     list-style: none;
-    position: relative;
-    display: block;
 }
 
 body 
