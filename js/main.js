@@ -42,7 +42,7 @@ $('#refialink a').click
       else
       {
         $('#refialink a').css("color","#1E97BF");
-        $('#battles').slideToggle("slow");
+        $('#battles').toggle();
         $('#refiabattles').slideToggle("slow");
       }
     }
