@@ -55,16 +55,6 @@ body
     display: inline-block;
 }
 
-#fwlink a:hover
-{
-    color: "#AD3149";
-}
-
-#refialink a:hover
-{
-    color:"#1E97BF";
-}
-
 nav
 {
     margin-left: auto;
