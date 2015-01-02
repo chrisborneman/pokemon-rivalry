@@ -1,7 +1,6 @@
 $('#fwlink a').click
   (
     function()
-    function()
     {
       if($('#refiabattles').is(":visible"))
       {
