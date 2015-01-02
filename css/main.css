@@ -43,14 +43,12 @@ body
 #fwlink
 {
     display: inline-block;
-    float: left;
     margin-right: 110px;
 }
 
 #refialink
 {
     display: inline-block;
-    float: left;
 }
 
 nav
