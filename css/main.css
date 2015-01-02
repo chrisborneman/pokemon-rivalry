@@ -4,13 +4,9 @@
     text-align: center;
 }
 
-.scorebar
-{
-    transition: all .4s ease;
-}
-
 .scorebar-menu
 {
+    transition: all .4s ease;
     display: inline-block;
     list-style: none;
 }
