@@ -3,7 +3,7 @@ $('#fwlink a').click
     function()
     {
       $('#battles').toggle();
-      $('#refiabattles').toggle();
+      $('#fwbattles').toggle();
     }
   )
 $('#refialink a').click
