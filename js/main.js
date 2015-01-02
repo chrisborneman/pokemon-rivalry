@@ -44,9 +44,17 @@ $('#refialink a').click
           }
         );
       }
+      else if($('#refiabattles').is(":visible")) 
+      {
+        $('#refiabattles').slideToggle("slow", function()
+          {
+            $('#battles').toggle();
+          }
+        );
+      }
       else
       {
-        $('#battles').slideToggle("slow", function()
+        $('#battles').toggle(0, function()
           {
             $('#refiabattles').slideToggle("slow");
           }
