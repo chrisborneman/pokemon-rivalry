@@ -2,15 +2,33 @@ $('#fwlink a').click
   (
     function()
     {
-      $('#battles').toggle();
-      $('#fwbattles').toggle();
+      if($('#refiabattles').is(":visible"))
+      {
+        $('#battles').toggle();
+        $('#refiabattles').toggle();
+      }
+      else
+      {
+        $('#battles').toggle();
+        $('#fwbattles').toggle();
+      }
     }
   )
+
 $('#refialink a').click
   (
     function()
     {
-      $('#battles').toggle();
-      $('#refiabattles').toggle();
+      if($('#fwbattles').is(":visible"))
+      {
+        $('#battles').toggle();
+        $('#fwbattles').toggle();
+      }
+      else
+      {
+        $('#battles').toggle();
+        $('#refiabattles').toggle();
+      }
+      
     }
   )
