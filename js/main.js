@@ -18,7 +18,7 @@ $('#fwlink a').click
       {
         $('#fwlink a').css("color","#AD3149");
         $('#battles').slideToggle("slow");
-        $('#fwbattles').slideToggle("slow");
+        $('#fwbattles').toggle();
       }
     }
   )
