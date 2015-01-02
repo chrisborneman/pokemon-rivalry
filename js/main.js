@@ -4,13 +4,13 @@ $('#fwlink a').click
     {
       if($('#refiabattles').is(":visible"))
       {
-        $('#battles').slideToggle("slow");
-        $('#refiabattles').slideToggle("slow");
+        $('#battles').slideToggle();
+        $('#refiabattles').toggle();
       }
       else if($('#fwbattles').is(":visible"))
       {
         $('#battles').slideToggle("slow");
-        $('#fwbattles').slideToggle("slow");
+        $('#fwbattles').toggle();
       }
       else
       {
@@ -27,12 +27,12 @@ $('#refialink a').click
       if($('#fwbattles').is(":visible"))
       {
         $('#battles').slideToggle("slow");
-        $('#fwbattles').slideToggle("slow");
+        $('#fwbattles').toggle();
       }
       else if($('#refiabattles').is(":visible"))
       {
         $('#battles').slideToggle("slow");
-        $('#refiabattles').slideToggle("slow");
+        $('#refiabattles').toggle();
       }
       else
       {
