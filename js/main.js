@@ -54,6 +54,7 @@ $('#refialink a').click
       }
       else
       {
+        $('#battles').toggle();
         $('#refiabattles').slideToggle();
       }
     }
