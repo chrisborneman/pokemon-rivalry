@@ -44,6 +44,16 @@ body
     margin-right: auto;
 }
 
+#fwbattles li
+{
+    margin-bottom: none;
+}
+
+#refiabattles li
+{
+    margin-bottom: none;
+}
+
 #fwlink
 {
     display: inline-block;
