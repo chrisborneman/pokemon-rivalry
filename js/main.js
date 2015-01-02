@@ -1,3 +1,33 @@
+$(document).ready
+(
+  function()
+  {
+    $('#fwlink a').hover
+    (
+      function()
+      {
+        $(this).animate({"color": "#AD3149"}, "slow");
+      },
+      function()
+      {
+        $(this).animate({"color": "#FFF0D5"}, "slow");
+      }
+    )
+
+    $('#refialink a').hover
+    (
+      function()
+      {
+        $(this).animate({"color": "#1E97BF"}, "slow");
+      },
+      function()
+      {
+        $(this).animate({"color": "#FFF0D5"}, "slow");
+      }
+    )
+  }
+)
+
 $('#fwlink a').click
   (
     function()
@@ -45,29 +75,5 @@ $('#refialink a').click
         $('#battles').toggle();
         $('#refiabattles').slideToggle("slow");
       }
-    }
-  )
-
-$('#fwlink a').hover
-  (
-    function()
-    {
-      $(this).animate({"color": "#AD3149"}, "slow");
-    },
-    function()
-    {
-      $(this).animate({"color": "#FFF0D5"}, "slow");
-    }
-  )
-
-$('#refialink a').hover
-  (
-    function()
-    {
-      $(this).animate({"color": "#1E97BF"}, "slow");
-    },
-    function()
-    {
-      $(this).animate({"color": "#FFF0D5"}, "slow");
     }
   )
