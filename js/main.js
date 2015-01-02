@@ -5,20 +5,20 @@ $('#fwlink a').click
       if($('#refiabattles').is(":visible"))
       {
         $('#refialink a').css("color","#FFF0D5");
-        $('#battles').slideToggle();
-        $('#refiabattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#refiabattles').slideToggle("slow");
       }
       else if($('#fwbattles').is(":visible"))
       {
         $('#fwlink a').css("color","#FFF0D5");
-        $('#battles').slideToggle();
-        $('#fwbattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#fwbattles').slideToggle("slow");
       }
       else
       {
         $('#fwlink a').css("color","#AD3149");
-        $('#battles').slideToggle();
-        $('#fwbattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#fwbattles').slideToggle("slow");
       }
     }
   )
@@ -30,20 +30,20 @@ $('#refialink a').click
       if($('#fwbattles').is(":visible"))
       {
         $('#fwlink a').css("color","#FFF0D5");
-        $('#battles').slideToggle();
-        $('#fwbattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#fwbattles').slideToggle("slow");
       }
       else if($('#refiabattles').is(":visible"))
       {
         $('#refialink a').css("color","#FFF0D5");
-        $('#battles').slideToggle();
-        $('#refiabattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#refiabattles').slideToggle("slow");
       }
       else
       {
         $('#refialink a').css("color","#1E97BF");
-        $('#battles').slideToggle();
-        $('#refiabattles').slideToggle();
+        $('#battles').slideToggle("slow");
+        $('#refiabattles').slideToggle("slow");
       }
     }
   )
