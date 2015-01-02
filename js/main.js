@@ -46,15 +46,15 @@ $('#refialink a').click
       }
       else if($('refiabattles').is(":visible"))
       {
-        $('#battles').slideToggle(0, function()
+        $('#battles').slideToggle("slow", function()
           {
-            $('#refiabattles').slideToggle();
+            $('#refiabattles').toggle();
           }
         );     
       }
       else
       {
-        $('#battles').slideToggle(0, function()
+        $('#battles').slideToggle("slow", function()
           {
             $('#refiabattles').slideToggle();
           }
