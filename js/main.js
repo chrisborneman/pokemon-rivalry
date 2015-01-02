@@ -35,7 +35,7 @@ $('#refialink a').click
       else
       {
         $('#battles').toggle();
-        $('#refiabattles').slideToggle(slow);
+        $('#refiabattles').slideToggle("slow");
       }
     }
   )
