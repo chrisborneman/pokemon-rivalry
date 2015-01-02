@@ -13,13 +13,19 @@ $('#fwlink a').click
       }
       else if($('fwbattles').is(":visible"))
       {
-        $('#battles').slideToggle("slow");
-        $('#fwbattles').toggle();
+        $('#battles').slideToggle("slow", function()
+          {
+            $('#fwbattles').toggle();
+          }
+        );
       }
       else
       {
-        $('#fwbattles').slideToggle("slow");
-        $('#battles').toggle();
+        $('#fwbattles').slideToggle("slow", function()
+          {
+            $('#battles').toggle();
+          }
+        );
       }
     }
   )
