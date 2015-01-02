@@ -1,3 +1,9 @@
+.battleheader
+{
+    padding-right: 40px;
+    text-align: center;
+}
+
 .scorebar-menu
 {
     display: inline-block;
@@ -15,12 +21,11 @@ body
 #battles
 {
     display: none;
-    text-align: center;
+    text-align: left;
 }
 
 #fwbattles
 {
-    padding-right: 40px;
     color: #FFF0D5;
     display: none;
     margin-top: 10px;
@@ -31,7 +36,6 @@ body
 
 #refiabattles
 {
-    padding-right: 40px;
     color: #FFF0D5;
     display: none;
     margin-top: 10px;
