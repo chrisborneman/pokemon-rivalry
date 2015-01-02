@@ -13,8 +13,8 @@ $('#fwlink a').click
       }
       else
       {
-        $('#battles').slideToggle("slow");
-        $('#fwbattles').toggle();
+        $('#battles').toggle();
+        $('#fwbattles').slideToggle("slow");
       }
     }
   )
@@ -34,8 +34,8 @@ $('#refialink a').click
       }
       else
       {
-        $('#battles').slideToggle("slow");
-        $('#refiabattles').toggle();
+        $('#battles').toggle();
+        $('#refiabattles').slideToggle(slow);
       }
     }
   )
