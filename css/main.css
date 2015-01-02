@@ -1,6 +1,7 @@
 .scorebar-menu
 {
     display: inline-block;
+    padding-left: 0px;
     list-style: none;
 }
 
