@@ -5,7 +5,7 @@ $('#fwlink a').click
       if($('#refiabattles').is(":visible"))
       {
         $('#battles').slideToggle("slow");
-        $('#fwbattles').slideToggle("slow");
+        $('#refiabattles').slideToggle("slow");
       }
       else if($('#fwbattles').is(":visible"))
       {
@@ -26,8 +26,8 @@ $('#refialink a').click
     {
       if($('#fwbattles').is(":visible"))
       {
+        $('#battles').slideToggle("slow");
         $('#fwbattles').slideToggle("slow");
-        $('#refiabattles').slideToggle("slow");
       }
       else if($('#refiabattles').is(":visible"))
       {
