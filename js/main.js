@@ -47,3 +47,19 @@ $('#refialink a').click
       }
     }
   )
+
+$('#fwlink a').hover
+  (
+    function()
+    {
+      $(this).css("color", "#AD3149");
+    }
+  )
+
+$('#refialink a').hover
+  (
+    function()
+    {
+      $(this).css("color", "#1E97BF");
+    }
+  )
