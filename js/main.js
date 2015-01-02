@@ -2,17 +2,15 @@ $('#fwlink a').click
   (
     function()
     {
-      $('#battles').show();
-      $('#fwbattles').show();
-      $('#refiabattles').hide();
+      $('#battles').toggle();
+      $('#fwbattles').toggle();
     }
   )
 $('#refialink a').click
   (
     function()
     {
-      $('#battles').show();
-      $('#fwbattles').hide();
-      $('#refiabattles').show();
+      $('#battles').toggle();
+      $('#refiabattles').toggle();
     }
   )
