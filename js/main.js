@@ -11,11 +11,19 @@ $('#fwlink a').click
             $('#fwbattles').toggle();
           });
       }
-      else
+      else if($('fwbattles').is(":visible"))
       {
         $('#battles').slideToggle("slow", function()
           {
             $('#fwbattles').toggle();
+          }
+        );
+      }
+      else
+      {
+        $('#fwbattles').slideToggle("slow", function()
+          {
+            $('#battles').toggle();
           }
         );
       }
@@ -35,6 +43,14 @@ $('#refialink a').click
             $('#refiabattles').toggle();
           }
         );
+      }
+      else if($('refiabattles').is(":visible"))
+      {
+        $('#battles').slideToggle("slow", function()
+          {
+            $('#refiabattles').toggle();
+          }
+        );     
       }
       else
       {
