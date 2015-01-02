@@ -52,11 +52,11 @@ $('#fwlink a').hover
   (
     function()
     {
-      $('#fwlink a').animate({"color": "#AD3149"}, "slow");
+      $('#fwlink a').animate({"color": "#AD3149"}, 300);
     },
     function()
     {
-      $('#fwlink a').animate({"color": "#FFF0D5"}, "slow");
+      $('#fwlink a').animate({"color": "#FFF0D5"}, 300);
     }
   )
 
@@ -64,10 +64,10 @@ $('#refialink a').hover
   (
     function()
     {
-      $('#refialink a').animate({"color": "#1E97BF"}, "slow");
+      $('#refialink a').animate({"color": "#1E97BF"}, 300);
     },
     function()
     {
-      $('#refialink a').animate({"color": "#FFF0D5"}, "slow");
+      $('#refialink a').animate({"color": "#FFF0D5"}, 300);
     }
   )
