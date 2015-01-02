@@ -13,8 +13,8 @@ $('#fwlink a').click
       }
       else if($('fwbattles').is(":visible"))
       {
-        $('#fwbattles').toggle();
         $('#battles').slideToggle("slow");
+        $('#fwbattles').toggle();
       }
       else
       {
@@ -40,8 +40,8 @@ $('#refialink a').click
       }
       else if($('refiabattles').is(":visible"))
       {
-        $('#refiabattles').toggle();
         $('#battles').slideToggle("slow");
+        $('#refiabattles').toggle();        
       }
       else
       {
