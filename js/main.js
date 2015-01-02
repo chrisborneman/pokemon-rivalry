@@ -11,14 +11,6 @@ $('#fwlink a').click
             $('#fwbattles').toggle();
           });
       }
-      else if($('fwbattles').is(":visible"))
-      {
-        $('#battles').slideToggle("slow", function()
-          {
-            $('#fwbattles').toggle();
-          }
-        );
-      }
       else
       {
         $('#fwbattles').slideToggle("slow", function()
@@ -44,13 +36,9 @@ $('#refialink a').click
           }
         );
       }
-      else if($('refiabattles').is(":visible"))
-      {
-        $('#battles').slideToggle("slow");    
-      }
       else
       {
-        $('#battles').slideToggle(0, function()
+        $('#battles').slideToggle("slow", function()
           {
             $('#refiabattles').slideToggle("slow");
           }
