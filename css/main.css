@@ -44,6 +44,18 @@ body
     margin-right: auto;
 }
 
+#fwbattles:hover
+{
+    transition: color .4s ease;
+    color: "#AD3149";
+}
+
+#refiabattles:hover
+{
+    transition: color .4s ease;
+    color:"#1E97BF";
+}
+
 #fwlink
 {
     display: inline-block;
