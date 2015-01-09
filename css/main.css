@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.battlelisting
+{
+    text-align: left;
+}
+
 .scorebar-menu
 {
     display: inline-block;
